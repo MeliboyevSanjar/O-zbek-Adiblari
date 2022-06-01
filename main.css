@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Oleo+Script:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+.modal-hide {
+  overflow: hidden;
+  padding-right: 21px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.primary-text {
+  font-size: 32px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 20px;
+  font-family: "Oleo Script", cursive;
+}
+.btn {
+  border-radius: 20px;
+  padding: 8px 25px;
+}
+.icon-button {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 0 !important;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 2;
+}
+.text i {
+  margin-right: 10px;
+}
+.text a {
+  color: #6c5ce7;
+}
+.container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.6);
+  z-index: 1;
+  backdrop-filter: blur(20px);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+  width: 100%;
+  max-width: 1440px;
+  padding: 10px 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 150px;
+}
+
+.header__menu {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.header__menu li {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-weight: 600;
+}
+.header__menu li:hover {
+  color: #ffc107;
+}
+.header__search {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 10px 15px;
+}
+.header__search i {
+  cursor: pointer;
+}
+.header__search input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 14px;
+}
+
+.main {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.main-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+/* about */
+#about {
+  margin-top: 30px;
+  background-color: #fafafa;
+  padding: 20px;
+}
+
+#adiblar {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.adib-box {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  overflow: hidden;
+}
+.adib-box img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.adib-box__content {
+  padding: 15px;
+}
+.adib-text {
+  font-family: "Oleo Script", cursive;
+  font-size: 24px;
+  font-weight: 400;
+}
+.link {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #6c5ce7;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.my_modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.modal-help {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 20px;
+}
+
+.my-modal-content {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  position: relative;
+}
+.my_modal .close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #000;
+}
+.my_modal .row > * {
+  padding: 0;
+}
+.modal-actions {
+  padding: 20px;
+  background-color: #fff;
+}
+
+#add {
+  margin-top: 30px;
+  padding: 20px;
+  background: #fafafa;
+}
+.adib-info-form {
+  padding: 10px;
+}
+
+.adib-info-form input {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.adib-info-form textarea {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 15px;
+}
+footer {
+  width: 100%;
+  background: #17191a;
+  color: #fff !important;
+}
+
+footer .text {
+  margin: 10px 0;
+}
+footer a {
+  color: #fff;
+}
